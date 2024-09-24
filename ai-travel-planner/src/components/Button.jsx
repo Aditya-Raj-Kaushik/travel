@@ -6,7 +6,7 @@ const Button = ({ label, onClick, customStyles = {} }) => {
       <button
         onClick={onClick}
         className="px-4 py-2 rounded-lg border-2 border-black bg-black text-white
-                   hover:bg-white hover:text-black transition-all duration-700"
+                   hover:bg-white hover:text-black transition-all duration-900"
         style={{ ...customStyles }}
       >
         Sign in
